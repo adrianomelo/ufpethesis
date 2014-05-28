@@ -180,6 +180,7 @@
   \gdef\@sectionname{Seção}
   \gdef\@appendixname{Apêndice}
   \newcommand\bibliographytocname{Referências Bibliográficas}
+  \newcommand\summaryname{Sumário}
   \renewcommand{\appendixtocname}{Apêndice}
   \renewcommand{\appendixpagename}{Apêndice}
   \gdef\@pagename{página}
@@ -223,6 +224,7 @@
   \gdef\@sectionname{Section}
   \renewcommand{\appendixtocname}{Appendix}
   \renewcommand{\appendixpagename}{Appendix}
+  \newcommand\summaryname{Summary}
   \newcommand\bibliographytocname{References}
   \gdef\@pagename{page}
   \gdef\@listacronymname{Acronyms}
@@ -812,7 +814,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
 
 \renewcommand\tableofcontents{%
    \pagestyle{empty}
-   \chapter*{Summary}
+   \chapter*{\summaryname}
    \thispagestyle{empty}
    \@starttoc{toc}}
  
