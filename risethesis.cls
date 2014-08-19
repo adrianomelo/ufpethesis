@@ -466,7 +466,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
 	\backmatter
 	\bibliographystyle{abnt}
 	\setlength{\bibhang}{0pt}
-	\renewcommand{\bibname}{References}
+	\renewcommand{\bibname}{\bibliographytocname}
 	\singlespacing % Change to singlespacing for the references
 	\begingroup
 	\raggedright
